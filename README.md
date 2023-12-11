@@ -15,3 +15,5 @@ dart --version
 dart Main.dart
 ```
 
+- Dart Linter : [linter](https://github.com/dart-lang/linter), you can find there the official linter for Dart that checks Dart standard coding.
+
