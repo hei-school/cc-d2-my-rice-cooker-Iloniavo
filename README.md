@@ -15,3 +15,8 @@ ruby --version
 ```
 ruby main.rb
 ```
+### Linter : 
+
+Rubocop is the official linter of Ruby : [Rubocop](https://rubocop.org/).
+
+***Notice : Rubycop detects some errors. The implementation needs to be refactored***
