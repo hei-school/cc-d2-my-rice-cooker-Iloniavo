@@ -1,0 +1,39 @@
+<scalastyle>
+    <!-- Configuration générale -->
+    <name>Scala Style Configuration</name>
+    <description>Common Scalastyle Configuration</description>
+
+    <!-- Règles spécifiques -->
+    <check level="warning" class="org.scalastyle.file.HeaderMatchesChecker">
+        <parameters>
+            <parameter name="headerFile" value="header.txt"/>
+        </parameters>
+    </check>
+
+    <check level="error" class="org.scalastyle.file.LineLengthChecker">
+        <parameters>
+            <parameter name="maxLineLength" value="120"/>
+        </parameters>
+    </check>
+
+    <check level="error" class="org.scalastyle.file.EndOfLineChecker">
+        <parameters>
+            <parameter name="newline" value="LF"/>
+        </parameters>
+    </check>
+
+    <check level="error" class="org.scalastyle.scalariform.ScalariformChecker">
+        <parameters>
+            <parameter name="configFile" value="scalariform.conf"/>
+        </parameters>
+    </check>
+
+    <check level="error" class="org.scalastyle.file.CaseClassParameterChecker">
+        <parameters>
+            <parameter name="allowedModifiers" value="private protected"/>
+        </parameters>
+    </check>
+
+    <!-- Ajoutez d'autres règles Scalastyle selon vos besoins -->
+
+</scalastyle>

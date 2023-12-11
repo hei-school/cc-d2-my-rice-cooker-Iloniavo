@@ -22,3 +22,29 @@ scalac Main.scala RiceCoooker.scala
 ```
 scala Main.scala
 ```
+
+- Scala linter : 
+This Scala project adheres to specific style standards to ensure consistent and readable code. The style rules are enforced using Scalastyle.
+
+### Style Standards
+
+#### 1. File Header
+- Files must include a specified header as defined in the `header.txt` file.
+
+#### 2. Line Length
+- Maximum line length is restricted to 120 characters.
+
+#### 3. End of Line
+- Line endings should be in LF (Unix) format.
+
+#### 4. Code Formatting
+- Code formatting follows rules defined in the `scalariform.conf` file.
+
+#### 5. Case Class Parameters
+- Parameters in case classes are allowed only with "private" and "protected" modifiers.
+
+### Running Scalastyle
+
+
+```bash
+java -jar lib/scalastyle_2.11-1.0.0-batch.jar --config lib/scalastyle_config.xml --verbose --failOnViolation
