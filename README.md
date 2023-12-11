@@ -2,26 +2,23 @@
 
 # Rice Cooker Manager
 
-Welcome to Rice Cooker Manager, where you can handle your rice cooker at home. It helps you to get the best of your rice cooker.
-The algorithm is implemented in with four different programming languages : Typescript, Scala, Dart, Ruby.
+## Installation
 
-## 1. Cooking feature
+- Install Java SDK : follow steps [here](https://www.oracle.com/java/technologies/downloads/).
 
-To cook rice, we must consider some parameters :
+- Install Scala : follow steps [here](https://www.ruby-lang.org/fr/documentation/installation/)
 
-- status : power on
-- rice cooker max capacity
-- rice type 
-- quantity ( g )
-- cook time ( minutes )
-- water amount ( ml )
+- Check if Scala is installed : 
+```
+scala --version
+```
 
-## 2. Implementation
+- Compile the code : 
+```
+scalac Main.scala RiceCoooker.scala
+```
 
-- Typescript :
-- Scala : 
-- Dart : 
-- Ruby :
-
-Check out each branch to see how to use our Rice Cooker Manager
-
+- Run the app : 
+```
+scala Main.scala
+```
