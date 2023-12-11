@@ -25,3 +25,10 @@ To cook rice, we must consider some parameters :
 
 Check out each branch to see how to use our Rice Cooker Manager
 
+## 3. How to cook rice ?
+- Plug in the rice cooker
+- Add the amount of rice you want to cook
+- Add the amount of water you need 
+- Set the cook time
+- Let the rice cooker cook by activating the cooking button
+
