@@ -1,5 +1,4 @@
-.metals/
-main/
-index.js
 node_modules/
+index.js
+index.ts
 RiceCooker.js

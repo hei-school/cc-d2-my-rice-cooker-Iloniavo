@@ -79,4 +79,3 @@ export class RiceCooker {
       console.log(`This will take approximately ${this.cookTime} minutes`);
     }
   }
-  

@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc index.ts"
+    "build": "tsc index.ts",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm.cmd run compile",
+    "pretest": "npm.cmd run compile",
+    "posttest": "npm.cmd run lint"
   },
   "repository": {
     "type": "git",
@@ -19,11 +26,14 @@
   },
   "homepage": "https://github.com/hei-school/cc-d2-my-rice-cooker-Iloniavo#readme",
   "dependencies": {
-    "@types/node": "^20.10.4",
-    "prompt-sync": "^4.2.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "typescript": "^5.3.3"
+    "@types/node": "20.8.2",
+    "@types/readline-sync": "^1.4.8",
+    "gts": "^5.2.0",
+    "typescript": "~5.2.0"
   }
 }

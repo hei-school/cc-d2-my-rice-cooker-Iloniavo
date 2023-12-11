@@ -1,6 +1,5 @@
-import { RiceCooker } from "./RiceCooker";
-
-const readlineSync = require('readline-sync')
+import { RiceCooker } from './RiceCooker';
+import * as readlineSync from 'readline-sync';
 
 function handleChoice(option: string, riceCooker: RiceCooker): void {
   switch (option) {
